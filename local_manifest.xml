@@ -31,7 +31,6 @@
 
   <!-- Mustaavalkosta -->
   <project path="device/common" name="Mustaavalkosta/android_device_common" revision="cm-10.1" />
-  <project path="device/htc/common" name="Mustaavalkosta/android_device_htc_common" revision="cm-10.1" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="jb-mv" />
   <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-10.1" />
   <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" revision="cm-10.1" />
