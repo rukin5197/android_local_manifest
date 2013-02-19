@@ -16,6 +16,7 @@
   <remove-project name="android_hardware_qcom_media" />
   <remove-project name="android_hardware_qcom_gps" />
   <remove-project name="platform/prebuilts/misc" />
+  <remove-project name="AOKP/packages_apps_Camera" />
 
   <!-- Andromadus -->
   <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
@@ -38,7 +39,7 @@
   <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="cm-10.1" />
   <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="cm-10.1" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" remote="github" revision="jb-mv" />
-  <project path="vendor/qcom/proprietary" name="Mustavaalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
+  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
 
   <!-- Rukin5197 -->
   <project path="local_manifest" name="rukin5197/android_local_manifest" remote="github" revision="aokp-mr1" />
