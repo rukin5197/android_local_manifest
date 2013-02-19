@@ -3,43 +3,46 @@
 
   <remote  name="cfx"
            fetch="https://bitbucket.org/codefirex/" />
+ 
+  <remote  name="github"
+           fetch="https://github.com/" />
 
   <!-- remove CM repos -->
-  <remove-project name="CyanogenMod/android_device_common" />
-  <remove-project name="CyanogenMod/android_frameworks_av" />
-  <remove-project name="CyanogenMod/android_frameworks_native" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="android_device_common" />
+  <remove-project name="AOKP/frameworks_av" />
+  <remove-project name="AOKP/frameworks_native" />
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="android_hardware_qcom_gps" />
   <remove-project name="platform/prebuilts/misc" />
 
   <!-- Andromadus -->
-  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" revision="Andro4.2" />
-  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" revision="jb4.2" />
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" revision="jb4.2" />
+  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
+  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="jb4.2" />
+  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jb4.2" />
   
   <!-- CM hack -->
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="jellybean" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="jellybean" />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="cm-10.1" />
 
   <!-- CodeFireX -->
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
 
   <!-- KangBangKreations -->
-  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" revision="kb-stable" />
+  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
 
   <!-- Mustaavalkosta -->
-  <project path="device/common" name="Mustaavalkosta/android_device_common" revision="cm-10.1" />
-  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="jb-mv" />
-  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-10.1" />
-  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" revision="cm-10.1" />
-  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
-  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
+  <project path="device/common" name="Mustaavalkosta/android_device_common" remote="github" revision="cm-10.1" />
+  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="jb-mv" />
+  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="cm-10.1" />
+  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="cm-10.1" />
+  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" remote="github" revision="jb-mv" />
+  <project path="vendor/qcom/proprietary" name="Mustavaalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
 
   <!-- Rukin5197 -->
-  <project path="local_manifest" name="rukin5197/android_local_manifest" revision="cm10.1" />
-  <project path="device/htc/primoc" name="rukin5197/android_device_htc_primoc" remote="github" revision="cm-10.1" />
+  <project path="local_manifest" name="rukin5197/android_local_manifest" remote="github" revision="aokp-mr1" />
+  <project path="device/htc/primoc" name="rukin5197/aokp_device_htc_primoc" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/primoc" name="rukin5197/android_vendor_htc_primoc" remote="github" revision="cm-10.1" />
   <project path="kernel/htc/primoc" name="rukin5197/android_kernel_htc_primoc" remote="github" revision="jellybean" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="rukin5197/arm-eabi-4.4.3" remote="github" revision="jellybean" />
