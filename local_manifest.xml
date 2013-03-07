@@ -36,7 +36,7 @@
 
   <!-- Rukin5197 -->
   <project path="local_manifest" name="rukin5197/android_local_manifest" remote="github" revision="ubuntu" />
-  <project path="device/htc/primoc" name="rukin5197/android_device_htc_primoc" remote="github" revision="cm-10.1" />
+  <project path="device/htc/primoc" name="rukin5197/android_device_htc_primoc" remote="github" revision="ubuntu" />
   <project path="vendor/htc/primoc" name="rukin5197/android_vendor_htc_primoc" remote="github" revision="cm-10.1" />
   <project path="kernel/htc/primoc" name="rukin5197/android_kernel_htc_primoc" remote="github" revision="jellybean-ubuntu" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="rukin5197/arm-eabi-4.4.3" remote="github" revision="jellybean" />
