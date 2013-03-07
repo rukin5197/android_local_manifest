@@ -6,6 +6,15 @@
 
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_device_common" />
+  <remove-project name="CyanogenMod/android_device_samsung_maguro" />
+  <remove-project name="CyanogenMod/android_device_samsung_tuna" />
+  <remove-project name="CyanogenMod/android_kernel_samsung_tuna" />
+  <remove-project name="CyanogenMod/android_device_samsung_manta" />
+  <remove-project name="CyanogenMod/android_kernel_samsung_manta" />
+  <remove-project name="CyanogenMod/android_device_lge_mako" />
+  <remove-project name="CyanogenMod/lge-kernel-mako" />
+  <remove-project name="CyanogenMod/android_device_asus_grouper" />
+  <remove-project name="CyanogenMod/android_kernel_asus_grouper" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
@@ -28,9 +37,9 @@
 
   <!-- Mustaavalkosta -->
   <project path="device/common" name="Mustaavalkosta/android_device_common" remote="github" revision="cm-10.1" />
-  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="jb-mv" />
-  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="cm-10.1" />
-  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="cm-10.1" />
+  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="ubuntu" />
+  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="ubuntu" />
+  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="ubuntu" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" remote="github" revision="jb-mv" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
 
