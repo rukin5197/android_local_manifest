@@ -5,7 +5,6 @@
            fetch="https://bitbucket.org/codefirex/" />
 
   <!-- remove CM repos -->
-  <remove-project name="CyanogenMod/android_device_common" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
@@ -30,7 +29,6 @@
   <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" revision="kb-stable" />
 
   <!-- Mustaavalkosta -->
-  <project path="device/common" name="Mustaavalkosta/android_device_common" revision="cm-10.1" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="cm-10.1" />
   <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-10.1" />
   <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" revision="cm-10.1" />
