@@ -1,39 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="cfx"
-           fetch="https://bitbucket.org/codefirex/" />
+  <remote  name="bsydz"
+           fetch="https://github.com/MT-ParanoidAndroid" />
 
-  <!-- remove CM repos -->
-  <remove-project name="CyanogenMod/android_frameworks_av" />
-  <remove-project name="CyanogenMod/android_frameworks_native" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-  <remove-project name="platform/prebuilts/misc" />
+  <remote  name="rukin"
+           fetch="https://github.com/rukin5197" />
 
-  <!-- Andromadus -->
-  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" revision="Andro4.2" />
-  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" revision="jb4.2" />
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" revision="jb4.2" />
-  
-  <!-- CM hack -->
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="jellybean" />
+  <!-- remove LS repos -->
+  <remove-project name="android_bionic" />
+  <remove-project name="android_device_htc_mecha" />
+  <remove-project name="android_device_hp_tenderloin" />
+  <remove-project name="android_device_htc_msm7x30-common" />
+  <remove-project name="android_kernel_htc_mecha" />
+  <remove-project name="android_kernel_hp_tenderloin" />
+  <remove-project name="android_packages_apps_Camera" />
+  <remove-project name="android_packages_apps_Launcher2" />
+  <remove-project name="android_packages_apps_Phone" />
+  <remove-project name="android_packages_input_LatinIME" />
+  <remove-project name="android_system_core" />
+  <remove-project name="proprietary_vendor_htc" />
+  <remove-project name="proprietary_vendor_hp" />
+  <remove-project name="proprietary_vendor_qcom" />
+  <remove-project name="android_system_netd" />
+  <remove-project name="android_hardware_qcom_gps" />
 
-  <!-- Mustaavalkosta -->
-  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-10.1" />
-  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" revision="cm-10.1" />
-  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
-  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
+  <!-- CM Projects -->
+  <project path="bionic" name="android_bionic" remote="cm" revision="ics" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="ics" />
+  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="cm" revision="ics" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="cm" revision="ics" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cm" revision="ics" />
+  <project path="system/core" name="android_system_core" remote="cm" revision="ics" />
 
-  <!-- Rukin5197 -->
-  <project path="local_manifest" name="rukin5197/android_local_manifest" revision="cm10.1" />
-  <project path="device/htc/primoc" name="rukin5197/android_device_htc_primoc" remote="github" revision="cm-10.1" />
-  <project path="device/htc/msm7x30-common" name="rukin5197/android_device_htc_msm7x30-common" revision="cm-10.1" />
-  <project path="vendor/htc/primoc" name="rukin5197/android_vendor_htc_primoc" remote="github" revision="cm-10.1" />
-  <project path="kernel/htc/primoc" name="rukin5197/android_kernel_htc_primoc" remote="github" revision="jellybean" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="rukin5197/arm-eabi-4.4.3" remote="github" revision="jellybean" />
+  <!-- Local Projects -->
+  <project path="device/motorola/triumph" name="android_device_motorola_triumph" remote="rukin" revision="ics" />
+  <project path="vendor/motorola/triumph" name="android_vendor_motorola_triumph" remote="bsydz" revision="ics" />
+  <project path="kernel/motorola/triumph" name="triumph-kernel-msm7x30" remote="bsydz" revision="ics" />
+
+  <!-- BSydz Projects -->
+  <project path="external/hostapd" name="android_external_hostapd" remote="bsydz" revision="ics" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="bsydz" revision="ics" />
+  <project path="system/netd" name="android_system_netd" remote="bsydz" revision="ics" />
 
 </manifest>
