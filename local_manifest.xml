@@ -15,9 +15,6 @@
   <remove-project name="platform/prebuilts/misc" />
 
   <!-- Andromadus -->
-  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" revision="Andro4.2" />
-  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" revision="jb4.2" />
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" revision="jb4.2" />
   
   <!-- CM hack -->
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="jellybean" />
@@ -25,6 +22,9 @@
   <!-- Mustaavalkosta -->
   <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-10.1" />
   <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" revision="cm-10.1" />
+  <project path="hardware/qcom/audio" name="Mustaavalkosta/android_hardware_qcom_audio" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.1" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
 
