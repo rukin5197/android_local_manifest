@@ -2,33 +2,23 @@
 <manifest>
 
   <!-- remove CM repos -->
-  <remove-project name="CyanogenMod/android_frameworks_av" />
-  <remove-project name="CyanogenMod/android_frameworks_native" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="ParanoidAndroid/android_frameworks_opt_telephony" />
   <remove-project name="platform/prebuilts/misc" />
 
-  <!-- CM hack -->
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="jellybean" />
-
   <!-- Mustaavalkosta -->
-  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-10.1" />
-  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" revision="cm-10.1" />
-  <project path="hardware/qcom/audio" name="Mustaavalkosta/android_hardware_qcom_audio" revision="cm-10.1" />
-  <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.1" />
+  <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="cm-10.1" />
+  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="cm-10.1" />
+  <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" remote="github" revision="cm-10.1" />
+  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="github" revision="master" />
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
+  <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="cm-10.1" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
-
+  
   <!-- Rukin5197 -->
-  <project path="local_manifest" name="rukin5197/android_local_manifest" revision="cm10.1" />
-  <project path="device/htc/primoc" name="rukin5197/android_device_htc_primoc" remote="github" revision="cm-10.1" />
-  <project path="device/htc/msm7x30-common" name="rukin5197/android_device_htc_msm7x30-common" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="rukin5197/android_hardware_qcom_display" revision="cm-10.1" />
-  <project path="kernel/htc/primoc" name="rukin5197/android_kernel_htc_primoc" remote="github" revision="jellybean" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="rukin5197/arm-eabi-4.4.3" remote="github" revision="jellybean" />
-  <project path="vendor/htc/primoc" name="rukin5197/android_vendor_htc_primoc" remote="github" revision="cm-10.1" />
+  <project path="local_manifest" name="rukin5197/android_local_manifest" remote="github" revision="aospa" />
+  <project path="scripts" name="rukin5197/build_scripts" remote="github" revision="aospa" />
 
 </manifest>
