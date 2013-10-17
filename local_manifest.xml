@@ -4,6 +4,9 @@
   <remote  name="git"
            fetch="git://github.com/" />
 
+  <!-- Evervolv -->
+  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" revision="jellybean-4.3" />
+
   <!-- Mustaavalkosta -->
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="git" revision="cm-10.1" />
 
