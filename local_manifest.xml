@@ -9,8 +9,8 @@
 
   <!-- Rukin5197 -->
   <project path="local_manifest" name="rukin5197/android_local_manifest" remote="git" revision="ev" />
-  <project path="device/htc/primoc" name="rukin5197/android_device_htc_primoc" remote="git" revision="cm-10.1" />
-  <project path="kernel/htc/primoc" name="rukin5197/android_kernel_htc_primoc" remote="git" revision="jellybean" />
+  <project path="device/htc/primoc" name="TeamPrimo/android_device_htc_primoc" remote="git" revision="cm-10.2" />
+  <project path="kernel/htc/primoc" name="TeamPrimo/android_kernel_htc_primoc" remote="git" revision="jellybean" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="rukin5197/arm-eabi-4.4.3" remote="git" revision="jellybean" />
   <project path="vendor/htc/primoc" name="rukin5197/android_vendor_htc_primoc" remote="git" revision="cm-10.1" />
   
